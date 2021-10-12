@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Persons_with_WPF</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="red-arrow-3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="red-arrow-3.png" />
+  </ItemGroup>
+
+</Project>
